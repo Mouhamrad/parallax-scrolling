@@ -10,15 +10,14 @@ export default function App() {
       <GlobalStyle />
       <Header />
       <section>
-        <div class="shadow"></div>
-
-        <div class="container">
-          <div class="content opacity">
-            <h3 class="title">
+        <div className="shadow" />
+        <div className="container">
+          <div className="content opacity">
+            <h3 className="title">
               About
-              <div class="border"></div>
+              <div className="border" />
             </h3>
-            <p class="text">
+            <p className="text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
               officiis quos expedita ipsa, a quidem inventore voluptates debitis
               accusamus tenetur qui et voluptas dicta, culpa earum, doloribus
@@ -27,8 +26,7 @@ export default function App() {
               temporibus exercitationem.
             </p>
           </div>
-
-          <div class="imgContainer opacity">
+          <div className="imgContainer opacity">
             <img src="img/image.jpg" alt="" />
           </div>
         </div>
