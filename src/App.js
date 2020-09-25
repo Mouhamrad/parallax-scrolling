@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Header from "./components/Header";
 
-import { AppWrapper, GlobalStyle } from "./styles";
+import { AppWrapper, GlobalStyle, Section } from "./styles";
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         </Helmet>
         <GlobalStyle />
         <Header />
-        <section>
+        <Section>
           <div className="shadow" />
           <div className="container">
             <div className="content opacity">
@@ -38,7 +38,7 @@ export default function App() {
               <img src="img/image.jpg" alt="" />
             </div>
           </div>
-        </section>
+        </Section>
       </AppWrapper>
     </HelmetProvider>
   );
